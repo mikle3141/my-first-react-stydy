@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 ReactDOM.render(
     React.createElement('button', {
-        disabled: true
+        onClick: () => console.log('CLICK')
     }, 'Нажми меня!'),
   document.getElementById('root')
 );
