@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 
 ReactDOM.render(
-    <App />,
+    <div>
+        Приложение работает!
+        <button>Кнопка</button>
+    </div>,
   document.getElementById('root')
 );
