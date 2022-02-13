@@ -1,16 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 function App() {
-    let likes = 5;
-    function increment() {
-        likes += 1;
-        console.log(likes);
-    }
+    const state = useState(5);
+    console.log(state)
   return (
     <div className="App">
-      <h1>{likes}</h1>
-      <button onClick={increment}>Increment</button>
-      <button onClick={() => likes -= 1}>Decrement</button>
+      {/*<h1>{likes}</h1>*/}
+      {/*<button onClick={increment}>Increment</button>*/}
+      {/*<button onClick={() => likes -= 1}>Decrement</button>*/}
     </div>
   );
 }
