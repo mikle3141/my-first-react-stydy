@@ -1,12 +1,31 @@
 import React from 'react'
-import Counter from "./components/Counter";
-import ClassCounter from "./components/ClassCounter";
+import './styles/App.css'
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
-      <ClassCounter/>
+        <dif className="post">
+            <div className="post__content">
+                <strong>1. Javascript</strong>
+                <div>
+                    JavaScript - язык программирования
+                </div>
+            </div>
+            <div className="post__btns">
+                <button>Удалить</button>
+            </div>
+        </dif>
+        <dif className="post">
+            <div className="post__content">
+                <strong>1. Javascript</strong>
+                <div>
+                    JavaScript - язык программирования
+                </div>
+            </div>
+            <div className="post__btns">
+                <button>Удалить</button>
+            </div>
+        </dif>
     </div>
   );
 }
