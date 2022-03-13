@@ -5,11 +5,7 @@ import PostItem from "./components/PostItem";
 function App() {
   return (
     <div className="App">
-        <PostItem/>
-        <PostItem/>
-        <PostItem/>
-        <PostItem/>
-        <PostItem/>
+        <PostItem value={"2222"} item={{title: 0}} number={1}/>
     </div>
   );
 }

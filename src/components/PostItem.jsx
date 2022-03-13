@@ -1,8 +1,9 @@
 import React from 'react';
 
-const PostItem = () => {
+const PostItem = (props) => {
+    console.log(props);
     return (
-        <dif className="post">
+        <div className="post">
             <div className="post__content">
                 <strong>1. Javascript</strong>
                 <div>
@@ -12,7 +13,7 @@ const PostItem = () => {
             <div className="post__btns">
                 <button>Удалить</button>
             </div>
-        </dif>
+        </div>
     );
 };
 
